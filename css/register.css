@@ -1,0 +1,137 @@
+*{margin: 0;padding: 0;}
+header{
+	border-bottom: 2px solid #d8d8d8;
+}
+#header{
+		width: 980px;
+		margin: 0 auto;
+		padding: 10px 0;
+		display: flex;
+		justify-content: space-between;
+		
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+.logo{
+	width: 100px;height: 36px;
+	padding-right: 30px;
+}
+.sign{
+	height: 39px;
+	line-height: 36px;
+}
+.sign>span{
+	margin-right: 10px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #666;
+}
+.sign>a{
+	padding: 3px 10px;
+	background-color: #FFBD00;
+	border: 0;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 12px;
+	color: #222;
+}
+.content{
+	width: 980px;
+	margin: 0 auto 30px;
+	padding-top: 30px;
+	color: #666;
+}
+.content1{
+	width: 870px;
+	padding: 8px 0 8px 110px;
+	position: relative;
+}
+.text{
+	position: absolute;
+	left: 0;
+	width: 100px;
+	padding-top: 6px;
+	font-size: 14px;
+	text-align: right;
+	color: #333;
+}
+.content1>input{
+	width: 248px;height: 24px;
+	padding: 5px;
+	border: 1px solid #aaa;
+	line-height: 24px;
+	font-size: 14px;
+}
+.content1>input:hover{
+	border-color: #f76120;
+}
+.tishi{
+	margin-left: 4px;
+	padding: 6px 0;
+	line-height: 24px;
+	font-size: 12px;
+	color: #999;
+}
+.cont2{
+	width: 870px;
+	padding-left: 110px;
+}
+.cont2 input{
+	color: #333;
+	background: #e9e9e9;
+	border: 1px solid #e5e5e5;
+	border-bottom: 1px solid #b3b3b3;
+	padding: 1px 8px 0;
+	font-size: 12px;
+}
+.cont3{
+	padding-bottom: 27px;
+}
+.cont3_1{
+	position: absolute;
+	width: 260px;
+	top: 50px;
+	left: 110px;
+	
+}
+.cont3_1>span{
+	width: 85px;height: 20px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	
+	color: #fff;
+	background: #eee;
+	padding: 2px 35px;
+}
+#cont6{
+	width:178px;height: 34px;
+	padding: 7px 20px 6px;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	border: 0;
+	background-image: linear-gradient(135deg,#ffd000,#ffbd00 100%);
+	border-radius: 2px;
+}
+.cont7{
+	width: 860px;
+	padding: 3px 10px 3px 110px;
+	margin: 0 auto 8px;
+}
+.cont7>a{
+	color: #FE8C00;
+	font-size: 13px;
+	cursor: pointer;
+}
+footer{
+	border-top: 1px solid #eee;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 13px;
+}
+p a{
+	color: #999;
+}
